@@ -25,7 +25,7 @@ Participating in this project allowed us to enhance our skills in the following 
 ### Team Members and Responsibilities
 
 - **Waseem:** Developed the login page.
-- **Astro:** Designed the home page, games section, and implemented basic form validation.
+- **Astro:** Designed and developed the home page, games section, and implemented basic form validation.
 
 ---
 
