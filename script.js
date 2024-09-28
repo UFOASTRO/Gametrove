@@ -6,7 +6,7 @@ let particleDistance = 40;
 let mouse = {
 	x: undefined,
 	y: undefined,
-	radius: 30
+	radius: 40
 }
 
 function init() {
