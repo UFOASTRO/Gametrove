@@ -112,7 +112,7 @@ function navHome(){
     window.alert('Account not found , please sign Up')
     return;
   }
-    window.location.href = 'index.html';
+    window.location.href = 'home.html';
     // GameTrove-main\Home-Page\home.html
 
 }
