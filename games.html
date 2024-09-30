@@ -8,15 +8,23 @@
     <link rel="shortcut icon" href="./img/favicon/favicon-32x32-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
-    <nav class="nav-bar">
+  <nav class="nav-bar">
         <h1>GAMETROVE</h1>
+        <ul class="sidebar">
+
+            <li onclick="hidesidebar()" class="hidesidebar"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="games.html"> Games</a></li>
+            <li id=""><a href="https://github.com/UFOASTRO/Gametrove ">Code</a></li>
+        </ul>
         <ul>
-            <!-- <input type="search" name="search" id="search"> -->
-            <li><a href="home.html">Home</a></li>
-            <li><a href="games.html">Games</a></li>
-            <li id=""><a href="https://github.com/UFOASTRO/Gametrove">Code</a></li>
+            <li><a href="home.html" class="nodis">Home</a></li>
+            <li><a href="games.html"class="nodis"> Games</a></li>
+            <li id=""><a href="https://github.com/UFOASTRO/Gametrove "class="nodis">Code</a></li>
         </ul>
         <a href="index.html"id="login">Login</a>
+       <li onclick="showsidebar()" id="menubutton"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/> </a></li> 
+
     </nav>
     <h2>GAMES</h2>
     <div class="grid-container">
