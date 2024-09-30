@@ -117,6 +117,7 @@ init();
 window.addEventListener("resize", resizeReset);
 window.addEventListener("mousemove", mousemove);
 window.addEventListener("mouseout", mouseout);
+
 function showsidebar(){
     const sidebar = document.querySelector('.sidebar');
     sidebar.style.display = 'flex';
