@@ -309,11 +309,9 @@ background: linear-gradient(19deg, #218afd 10%, #3973FA  100%);
         text-decoration: none;
         transition: 0.2s;
         transition: 0.3s ease-in-out;
-        margin-left: 10px;
-        margin-right: 10px;
+
     }
     .grid-container a:hover{
-        background-color: #732DE1;
         color: white;
         text-decoration: none;
     }
