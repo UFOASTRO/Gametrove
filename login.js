@@ -112,6 +112,10 @@ function navHome(){
     window.alert('Account not found , please sign Up')
     return;
   }
+  if(!emailInput.includes('@')){
+    window.alert('Invalid email address')  // add to gameTrove login on github
+    return;
+  }
     window.location.href = 'home.html';
     // GameTrove-main\Home-Page\home.html
 
